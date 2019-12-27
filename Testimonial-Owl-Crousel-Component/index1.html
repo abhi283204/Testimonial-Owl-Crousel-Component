@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The River</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="The River template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4/animate.css">
+ 
+
+<style>
+
+.parallax_background
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+.parallax-window
+{
+min-height: 400px;
+background: transparent;
+}
+
+
+
+
+.testimonials
+{
+	padding-top: 117px;
+	padding-bottom: 114px;
+}
+.testimonials_overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(13,11,24,0.79);
+	pointer-events: none;
+}
+.test_slider_item
+{
+	background: #ffffff;
+	padding-top: 43px;
+	padding-bottom: 58px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+.rating i::before
+{
+	font-family: 'FontAwesome';
+	content: "\f005";
+	font-style: normal;
+	font-size: 18px;
+	color: rgba(0,0,0,0.2);
+}
+.rating i:not(:last-of-type)
+{
+	margin-right: 6px;
+}
+.rating_1 i:first-child::before{color: #ffb400;}
+.rating_2 i:first-child::before{color: #ffb400;}
+.rating_2 i:nth-child(2)::before{color: #ffb400;}
+.rating_3 i:first-child::before{color: #ffb400;}
+.rating_3 i:nth-child(2)::before{color: #ffb400;}
+.rating_3 i:nth-child(3)::before{color: #ffb400;}
+.rating_4 i:first-child::before{color: #ffb400;}
+.rating_4 i:nth-child(2)::before{color: #ffb400;}
+.rating_4 i:nth-child(3)::before{color: #ffb400;}
+.rating_4 i:nth-child(4)::before{color: #ffb400;}
+.rating_5 i:first-child::before{color: #ffb400;}
+.rating_5 i:nth-child(2)::before{color: #ffb400;}
+.rating_5 i:nth-child(3)::before{color: #ffb400;}
+.rating_5 i:nth-child(4)::before{color: #ffb400;}
+.rating_5 i:nth-child(5)::before{color: #ffb400;}
+.testimonial_title
+{
+	margin-top: 21px;
+}
+.testimonial_title a
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #393939;
+	line-height: 1.2;
+}
+.testimonial_title a:hover
+{
+	color: #ffa37b;
+}
+.testimonial_text
+{
+	margin-top: 24px;
+}
+.testimonial_image
+{
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+}
+.testimonial_author
+{
+	margin-top: 26px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #393939;
+}
+.testimonial_author a
+{
+	font-size: 15px;
+	font-weight: 600;
+	color: #393939;
+}
+.testimonial_author a:hover
+{
+	color: #ffa37b;
+}
+</style>
+
+
+</head>
+<body>
+
+ 
+ 
+ <!-- Testimonials -->
+
+	<div class="testimonials">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/testimonials.jpg" data-speed="0.8"></div>
+		<div class="testimonials_overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="testimonials_slider_container">
+
+						<!-- Testimonials Slider -->
+						<div class="owl-carousel owl-theme test_slider">
+							
+							<!-- Slide -->
+							<div  class="test_slider_item text-center">
+								<div class="rating rating_5 d-flex flex-row align-items-start justify-content-center"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="testimonial_title"><a href="#">Perfect Stay</a></div>
+								<div class="testimonial_text">
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
+								</div>
+								<div class="testimonial_image"><img src="images/user_1.jpg" alt=""></div>
+								<div class="testimonial_author"><a href="#">Samantha Smith</a>, Greece</div>
+							</div>
+
+							<!-- Slide -->
+							<div  class="test_slider_item text-center">
+								<div class="rating rating_5 d-flex flex-row align-items-start justify-content-center"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="testimonial_title"><a href="#">Nice place</a></div>
+								<div class="testimonial_text">
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
+								</div>
+								<div class="testimonial_image"><img src="images/user_2.jpg" alt=""></div>
+								<div class="testimonial_author"><a href="#">Michael Doe</a>, Italy</div>
+							</div>
+
+							<!-- Slide -->
+							<div  class="test_slider_item text-center">
+								<div class="rating rating_5 d-flex flex-row align-items-start justify-content-center"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="testimonial_title"><a href="#">We loved it</a></div>
+								<div class="testimonial_text">
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit amet tellus blandit. Etiam nec odio vestibulum est mattis effic.</p>
+								</div>
+								<div class="testimonial_image"><img src="images/user_3.jpg" alt=""></div>
+								<div class="testimonial_author"><a href="#">Luis Garcia</a>, Spain</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+ 
+ 
+</div>
+
+<script src="jquery-3.3.1.min.js"></script>
+ 
+<script src="bootstrap.min.js"></script>
+ 
+<script src="scrollmagic/ScrollMagic.min.js"></script>
+ 
+<script src="OwlCarousel2-2.3.4/owl.carousel.js"></script>
+ 
+<script src="parallax-js-master/parallax.min.js"></script>
+ 
+<script src="custom.js"></script>
+</body>
+</html>
